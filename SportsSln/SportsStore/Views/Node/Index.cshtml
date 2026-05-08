@@ -1,0 +1,117 @@
+﻿@model ProductListViewModel
+
+<div id="authSection" class="d-flex justify-content-center align-items-center" style="min-height: 75vh;">
+    <div class="card bg-dark text-white p-5 shadow-lg text-center border-secondary" style="width: 700px; border-radius: 20px;">
+        <div class="mb-4">
+            <i class="fas fa-shield-alt text-info" style="font-size: 5rem;"></i>
+        </div>
+        <h1 class="display-5 fw-bold mb-3">Blockchain-Based Node Authentication System</h1>
+        <p class="lead text-secondary mb-4">
+            Practical application of an Authentication and Delegation scheme based on weights in Clustered Networks.
+        </p>
+        <hr class="my-4 border-secondary opacity-25">
+
+        <div class="py-3">
+            <button id="btnJoinNetwork" class="btn btn-info btn-lg px-5 py-3 shadow-lg fw-bold rounded-pill">
+                <i class="fas fa-network-wired me-2"></i> Join Network (New Node)
+            </button>
+
+            <div id="statusMessage" class="mt-4" style="display:none;">
+                <div class="spinner-border text-info mb-2" role="status"></div>
+                <p class="text-info fw-light">Processing RSA Digital Signature & Weighted Voting...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="storeSection" class="d-none">
+    <div class="row g-4">
+        @if (Model?.Products != null && Model.Products.Any())
+        {
+            @foreach (var p in Model.Products)
+            {
+                <partial name="ProductSummary" model="p" />
+            }
+        }
+        else
+        {
+            <div class="text-center p-5">
+                <h3 class="text-info">No products available in the secure ledger.</h3>
+            </div>
+        }
+    </div>
+
+    
+    <div class="d-flex justify-content-center mt-5 mb-5 pb-5">
+        <div page-model="@Model?.PagingInfo" page-action="Index"
+             page-class-enabled="true"
+             page-class="btn" page-class-normal="btn-outline-light mx-1 shadow-sm"
+             page-class-selected="btn-info active mx-1"
+             page-url-category="@Model?.CurrentCategory!"
+             class="btn-group">
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script>
+        
+        function showStore() {
+            document.getElementById('authSection').classList.add('d-none');
+            document.getElementById('storeSection').classList.remove('d-none');
+            document.getElementById('storeSection').style.display = 'block';
+        }
+
+        
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            if (urlParams.has('productPage') || window.location.pathname.toLowerCase().includes('page')) {
+                showStore();
+            }
+        });
+
+        document.getElementById('btnJoinNetwork').addEventListener('click', function() {
+            const btn = this;
+            const status = document.getElementById('statusMessage');
+
+            btn.disabled = true;
+            status.style.display = 'block';
+
+            fetch('/api/node/join-network', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' }
+            })
+            .then(response => {
+                if (!response.ok) throw new Error('Digital Authentication Failed');
+                return response.json();
+            })
+            .then(data => {
+                status.style.display = 'none';
+
+                Swal.fire({
+                    title: 'Authentication Succeeded!',
+                    html: `<div class="text-start"><b>Node ID:</b> <code class="text-info">${data.nodeId}</code><br>
+                           <b>Signature:</b> <small class="text-muted" style="word-break: break-all;">${data.hash}</small></div>`,
+                    icon: 'success',
+                    confirmButtonText: 'Access Store Inventory',
+                    confirmButtonColor: '#0dcaf0'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        showStore();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                });
+            })
+            .catch(error => {
+                status.style.display = 'none';
+                btn.disabled = false;
+                Swal.fire('Connection Refused', error.message, 'error');
+            });
+        });
+    </script>
+}

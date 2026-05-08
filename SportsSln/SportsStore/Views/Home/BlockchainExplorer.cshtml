@@ -1,0 +1,93 @@
+﻿@model List<SportsStore.Models.Blockchain.Block>
+
+@{
+    ViewBag.Title = "Blockchain Explorer - Authentication Ledger";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="fas fa-cubes"></i> Distributed Authentication Ledger (Blockchain)</h2>
+        <span class="badge bg-primary">Authenticated Nodes: @Model.Count</span>
+    </div>
+
+    <div class="row">
+        @foreach (var block in Model)
+        {
+            <div class="col-md-12 mb-4">
+                <div class="card shadow-sm @(block.Index == 0 ? "border-primary" : "border-success")">
+                    <div class="card-header d-flex justify-content-between">
+                        <strong>Block Index: #@block.Index</strong>
+                        <span class="text-muted">@block.Timestamp.ToString("yyyy-MM-dd HH:mm:ss")</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="text-primary"><i class="fas fa-id-badge"></i> Node Identity</h6>
+                                <table class="table table-sm table-borderless">
+                                    <tr>
+                                        <td style="width: 120px;"><strong>Node ID:</strong></td>
+                                        <td><code>@block.NodeId</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>IP Address:</strong></td>
+                                        <td>@block.IPAddress</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Trust Weight:</strong></td>
+                                        <td><span class="badge bg-info text-dark">@block.TrustWeight.ToString("F2")</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h6 class="text-danger"><i class="fas fa-lock"></i> Security Log</h6>
+                                <div class="mb-2">
+                                    <small class="d-block text-muted">Public Key:</small>
+                                    <div class="p-2 bg-light border rounded text-truncate" style="font-size: 0.7rem; max-height: 50px;">
+                                        @block.PublicKey
+                                    </div>
+                                </div>
+                                <div>
+                                    <small class="d-block text-muted">Digital Signature:</small>
+                                    <div class="p-2 bg-light border rounded text-truncate text-success" style="font-size: 0.7rem;">
+                                        @block.DigitalSignature
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="mt-3">
+                            <div class="mb-2">
+                                <small class="text-muted">Previous Hash:</small>
+                                <code class="d-block text-break">@block.PreviousHash</code>
+                            </div>
+                            <div>
+                                <small class="text-muted">Block Hash:</small>
+                                <code class="d-block text-break text-bold" style="color: #198754;">@block.Hash</code>
+                            </div>
+                        </div>
+                    </div>
+                    @if (block.Index == 0)
+                    {
+                        <div class="card-footer bg-primary text-white py-1">
+                            <small>Genesis Block - Trusted Starting Point</small>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            @if (block != Model.Last())
+            {
+                <div class="text-center my-2">
+                    <i class="fas fa-arrow-down fa-2x text-muted"></i>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+}

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Authserver",
+    "\\Authserver\\Models",
+    "\\SportsStore\\Models\\Blockchain",
+    "\\SportsStore\\Models\\Node",
+    "\\SportsStore\\wwwroot\\lib",
+    "\\SportsStore\\wwwroot\\lib\\bootstrap"
+  ],
+  "SelectedNode": "\\Authserver",
+  "PreviewInSolutionExplorer": false
+}

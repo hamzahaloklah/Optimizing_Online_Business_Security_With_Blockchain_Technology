@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Desktop\\Senior Project I\\SportsSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\services\\blockchainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\services\\blockchainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\models\\blockchain\\blockchain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\models\\blockchain\\blockchain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\appsettings.nodec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\appsettings.nodec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\appsettings.nodeb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\appsettings.nodeb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\appsettings.nodea.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\appsettings.nodea.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\models\\blockchain\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\models\\blockchain\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\services\\nodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\services\\nodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\services\\keygeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\services\\keygeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\infrastructure\\pagelinktaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\infrastructure\\pagelinktaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\models\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\models\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\models\\node\\nodeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\models\\node\\nodeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\views\\node\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\views\\node\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\services\\sjcproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\services\\sjcproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|e:\\desktop\\senior project i\\sportssln\\sportsstore\\views\\home\\blockchainexplorer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F011A7-27C9-45E2-BA4C-7DB64F894993}|SportsStore\\SportsStore.csproj|solutionrelative:sportsstore\\views\\home\\blockchainexplorer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SportsStore\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SportsStore\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T09:32:14.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.NodeC.json",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\appsettings.NodeC.json",
+              "RelativeDocumentMoniker": "SportsStore\\appsettings.NodeC.json",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\appsettings.NodeC.json",
+              "RelativeToolTip": "SportsStore\\appsettings.NodeC.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T09:30:55.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.NodeB.json",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\appsettings.NodeB.json",
+              "RelativeDocumentMoniker": "SportsStore\\appsettings.NodeB.json",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\appsettings.NodeB.json",
+              "RelativeToolTip": "SportsStore\\appsettings.NodeB.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T09:30:36.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.NodeA.json",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\appsettings.NodeA.json",
+              "RelativeDocumentMoniker": "SportsStore\\appsettings.NodeA.json",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\appsettings.NodeA.json",
+              "RelativeToolTip": "SportsStore\\appsettings.NodeA.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T09:30:16.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageLinkTagHelper.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Infrastructure\\PageLinkTagHelper.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Infrastructure\\PageLinkTagHelper.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Infrastructure\\PageLinkTagHelper.cs",
+              "RelativeToolTip": "SportsStore\\Infrastructure\\PageLinkTagHelper.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA7wCwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T05:52:08.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SportsStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SportsStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T09:42:36.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SessionCart.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\SessionCart.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Models\\SessionCart.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\SessionCart.cs",
+              "RelativeToolTip": "SportsStore\\Models\\SessionCart.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:34:07.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NodeService.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\NodeService.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Services\\NodeService.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\NodeService.cs",
+              "RelativeToolTip": "SportsStore\\Services\\NodeService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:34:42.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NodeInfo.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\Node\\NodeInfo.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Models\\Node\\NodeInfo.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\Node\\NodeInfo.cs",
+              "RelativeToolTip": "SportsStore\\Models\\Node\\NodeInfo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:27:02.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SJCProviderService.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\SJCProviderService.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Services\\SJCProviderService.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\SJCProviderService.cs",
+              "RelativeToolTip": "SportsStore\\Services\\SJCProviderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:22:22.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Views\\Node\\Index.cshtml",
+              "RelativeDocumentMoniker": "SportsStore\\Views\\Node\\Index.cshtml",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Views\\Node\\Index.cshtml",
+              "RelativeToolTip": "SportsStore\\Views\\Node\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T11:45:28.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BlockchainExplorer.cshtml",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Views\\Home\\BlockchainExplorer.cshtml",
+              "RelativeDocumentMoniker": "SportsStore\\Views\\Home\\BlockchainExplorer.cshtml",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Views\\Home\\BlockchainExplorer.cshtml",
+              "RelativeToolTip": "SportsStore\\Views\\Home\\BlockchainExplorer.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T11:42:06.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KeyGeneratorService.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\KeyGeneratorService.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Services\\KeyGeneratorService.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\KeyGeneratorService.cs",
+              "RelativeToolTip": "SportsStore\\Services\\KeyGeneratorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T11:36:58.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Blockchain.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\Blockchain\\Blockchain.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Models\\Blockchain\\Blockchain.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\Blockchain\\Blockchain.cs",
+              "RelativeToolTip": "SportsStore\\Models\\Blockchain\\Blockchain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T11:14:32.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SportsStore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T11:12:37.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NodeController.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Controllers\\NodeController.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Controllers\\NodeController.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Controllers\\NodeController.cs",
+              "RelativeToolTip": "SportsStore\\Controllers\\NodeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T11:10:33.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlockchainService.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\BlockchainService.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Services\\BlockchainService.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Services\\BlockchainService.cs",
+              "RelativeToolTip": "SportsStore\\Services\\BlockchainService.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowNMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T11:08:14.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Block.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\Blockchain\\Block.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Models\\Blockchain\\Block.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Models\\Blockchain\\Block.cs",
+              "RelativeToolTip": "SportsStore\\Models\\Blockchain\\Block.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T11:04:21.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Program.cs",
+              "RelativeDocumentMoniker": "SportsStore\\Program.cs",
+              "ToolTip": "E:\\Desktop\\Senior Project I\\SportsSln\\SportsStore\\Program.cs",
+              "RelativeToolTip": "SportsStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:28:02.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿@model Product
+
+<div class="col-md-6 col-lg-4 mb-4">
+    <div class="card h-100 shadow-sm" style="background: #1e293b; border: 1px solid #334155; border-radius: 15px; transition: 0.3s;"
+         onmouseover="this.style.borderColor='#38bdf8'; this.style.transform='translateY(-8px)'"
+         onmouseout="this.style.borderColor='#334155'; this.style.transform='translateY(0)'">
+
+        <div class="card-body d-flex flex-column p-4">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+                <h5 class="text-white fw-bold m-0">@Model?.Name</h5>
+                <span class="badge bg-info text-dark fw-bold">@Model?.Price.ToString("c")</span>
+            </div>
+
+            <p class="text-secondary small mb-4" style="height: 50px; overflow: hidden; line-height: 1.5;">
+                @Model?.Description
+            </p>
+
+            <form id="@Model?.ProductID" asp-page="/Cart" method="post" class="mt-auto">
+                <input type="hidden" asp-for="ProductID" />
+                <input type="hidden" name="returnUrl"
+                       value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+
+                <button type="submit" class="btn btn-primary w-100 fw-bold py-2 border-0"
+                        style="background: linear-gradient(135deg, #0ea5e9, #2563eb); border-radius: 10px;">
+                    <i class="bi bi-cart-plus me-2"></i>Add to Cart
+                </button>
+            </form>
+        </div>
+        <div style="height: 4px; background: linear-gradient(90deg, transparent, #38bdf8, transparent);"></div>
+    </div>
+</div>

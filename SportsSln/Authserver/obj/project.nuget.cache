@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "G16wwhDdHNz/zkpujC0uqK2wxZRmZ/jE0OGO6dVcUtTx5jfZwyP0UgHTquJ4/DdkdzoRebLrwlxJ2Bx1VZ6jUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Magde\\Desktop\\Senior Project I\\Senior Project I\\SportsSln\\Authserver\\AuthServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Magde\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
+    "C:\\Users\\Magde\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Magde\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Magde\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Magde\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Magde\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Magde\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

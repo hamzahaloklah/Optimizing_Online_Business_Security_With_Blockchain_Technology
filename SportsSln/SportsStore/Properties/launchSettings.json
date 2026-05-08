@@ -1,0 +1,40 @@
+﻿{
+  "profiles": {
+    "Node-A": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "NODE_ID": "Node-A",
+        "NODE_ADDRESS": "http://localhost:5000",
+        "ASPNETCORE_ENVIRONMENT_SPECIFIC": "NodeA" // ✅ لاستخدام الملف المناسب
+      }
+    },
+    "Node-B": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "NODE_ID": "Node-B",
+        "NODE_ADDRESS": "http://localhost:5001",
+        "ASPNETCORE_ENVIRONMENT_SPECIFIC": "NodeB"
+      }
+    },
+    "Node-C": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5002",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "NODE_ID": "Node-C",
+        "NODE_ADDRESS": "http://localhost:5002",
+        "ASPNETCORE_ENVIRONMENT_SPECIFIC": "NodeC"
+      }
+    }
+  }
+}
